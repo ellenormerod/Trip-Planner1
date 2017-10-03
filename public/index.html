@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trip Planner</title>
+    <link rel="stylesheet" href="./style.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    <script src="./bundle.js" defer></script>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="sidebar">
+
+        <div id="nav">
+            <a class="nav-home" href="#"><i class="fa fa-home" aria-hidden="true"></i><span class="home-hover">home</span></a>
+            <a class="nav-about" href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="about-hover">about</span></a>
+            <a class="nav-contact" href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="contact-hover">contact</span></a>
+        </div>
+
+        <div id="inputs">
+            <div>
+                <label for="hotels">Hotels</label>
+                <select name="hotels">
+                    <option value="hilton">Hilton</option>
+                </select>
+                <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </div>
+            <div>
+                <label for="restaurants">Restaurants</label>
+                <select name="restaurants">
+                    <option value="olivegarden">Olive Garden</option>
+                </select>
+                <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </div>
+            <div>
+                <label for="activities">Things To Do</label>
+                <select name="activities">
+                    <option value="museum">Museum</option>
+                </select>
+                <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <div id="itinerary">
+            <div>
+                <h3>My Hotels </h3>
+                <ul class="fa-ul">
+                    <li><i class="fa fa-times" aria-hidden="true"></i>Sheraton</li>
+                </ul>
+            </div>
+            <div>
+                <h3>My Restaurants</h3>
+                <ul class="fa-ul">
+                    <li><i class="fa fa-times" aria-hidden="true"></i>Billy Goat Tavern</li>
+                    <li><i class="fa fa-times" aria-hidden="true"></i>Dummy Text</li>
+                </ul>
+            </div>
+            <div>
+                <h3>My Activities</h3>
+                <ul class="fa-ul">
+                    <li><i class="fa fa-times" aria-hidden="true"></i>Cubs Game</li>
+                    <li><i class="fa fa-times" aria-hidden="true"></i>Dummy Text</li>
+                    <li><i class="fa fa-times" aria-hidden="true"></i>Dummy Text</li>
+                    <li><i class="fa fa-times" aria-hidden="true"></i>Dummy Text</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
